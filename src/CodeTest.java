@@ -5,11 +5,8 @@ public class CodeTest {
 
     public static int solution1(int number, int n, int m) {
 
-        int nCheck = 0;
-        int mCheck = 0;
-
-        nCheck = number%n == 0 ? 1 : 0;
-        mCheck = number%m == 0 ? 1 : 0;
+        int nCheck = number % n == 0 ? 1 : 0;
+        int mCheck = number % m == 0 ? 1 : 0;
 
         return nCheck*mCheck;
     }
@@ -55,7 +52,7 @@ public class CodeTest {
 
         int lastIndex = num_list.length - 1;
         int lastValue = 0;
-        int[] add_num_list = new int[lastIndex+2];
+        int[] add_num_list = new int[lastIndex + 2];
 
         if(num_list[lastIndex] > num_list[lastIndex-1])
             lastValue = num_list[lastIndex] - num_list[lastIndex-1];
