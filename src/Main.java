@@ -16,6 +16,9 @@ public class Main {
         System.out.println("마지막 두 원소");
         System.out.println(Arrays.toString(CodeTest4.solution(new int[]{2, 1, 6})));
 
+        System.out.println("이어 붙인 수");
+        System.out.println(CodeTest5.solution(new int[]{3,4,5,2,1}));
+
 
     }
 
