@@ -19,6 +19,8 @@ public class Main {
         System.out.println("이어 붙인 수");
         System.out.println(CodeTest5.solution(new int[]{3,4,5,2,1}));
 
+        System.out.println("원소들의 곱과 합");
+        System.out.println(CodeTest6.solution(new int[]{5, 7, 8, 3}));
 
     }
 
