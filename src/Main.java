@@ -22,6 +22,9 @@ public class Main {
         System.out.println("원소들의 곱과 합");
         System.out.println(CodeTest6.solution(new int[]{5, 7, 8, 3}));
 
+        System.out.println("flag에 따라 다른 값 반환하기");
+        System.out.println(CodeTest7.solution(-4, 7, true));
+
     }
 
 }
