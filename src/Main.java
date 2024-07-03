@@ -25,6 +25,9 @@ public class Main {
         System.out.println("flag에 따라 다른 값 반환하기");
         System.out.println(CodeTest7.solution(-4, 7, true));
 
+        System.out.println("홀짝에 따라 다른 값 반환하기");
+        System.out.println(CodeTest8.solution(7));
+
     }
 
 }
