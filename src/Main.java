@@ -28,6 +28,9 @@ public class Main {
         System.out.println("홀짝에 따라 다른 값 반환하기");
         System.out.println(CodeTest8.solution(7));
 
+        System.out.println("조건에 맞게 수열 변환하기 3");
+        System.out.println(Arrays.toString(CodeTest9.solution(new int[]{1, 2, 3, 100, 99, 98}, 3)));
+
     }
 
 }
