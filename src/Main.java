@@ -34,6 +34,9 @@ public class Main {
         System.out.println("정수 찾기");
         System.out.println(CodeTest10.solution(new int[]{1, 2, 3, 4, 5}, 3));
 
+        System.out.println("부분 문자열");
+        System.out.println(CodeTest11.solution("abc", "aabcc"));
+
     }
 
 }
