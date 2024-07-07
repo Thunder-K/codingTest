@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="codetest10 추가">
-      <change afterPath="$PROJECT_DIR$/src/CodeTest11.java" afterDir="false" />
+    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="codetest11 추가">
+      <change afterPath="$PROJECT_DIR$/src/CodeTest12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720188336617</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="codetest11 추가">
+      <option name="closed" value="true" />
+      <created>1720273589740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720273589740</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
     <MESSAGE value="codetest8 추가" />
     <MESSAGE value="codetest9 추가" />
     <MESSAGE value="codetest10 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="codetest10 추가" />
+    <MESSAGE value="codetest11 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="codetest11 추가" />
   </component>
 </project>
