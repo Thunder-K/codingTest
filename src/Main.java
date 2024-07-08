@@ -40,6 +40,9 @@ public class Main {
         System.out.println("부분 문자열인지 확인하기");
         System.out.println(CodeTestLv0.solution12("banana", "ana"));
 
+        System.out.println("문자열로 변환");
+        System.out.println(CodeTestLv0.solution13(123));
+
     }
 
 }

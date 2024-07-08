@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class CodeTestLv0 {
 
@@ -169,6 +170,14 @@ public class CodeTestLv0 {
         int answer = 0;
 
         answer = (my_string.contains(target) ? 1 : 0);
+
+        return answer;
+    }
+
+    public static String solution13(int n) {
+        String answer = "";
+
+        answer = String.valueOf(n);
 
         return answer;
     }
