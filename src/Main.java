@@ -43,6 +43,9 @@ public class Main {
         System.out.println("문자열로 변환");
         System.out.println(CodeTestLv0.solution13(123));
 
+        System.out.println("문자열을 정수로 변환하기");
+        System.out.println(CodeTestLv0.solution14("10"));
+
     }
 
 }

@@ -182,4 +182,12 @@ public class CodeTestLv0 {
         return answer;
     }
 
+    public int solution14(String n_str) {
+        int answer = 0;
+
+        answer = Integer.parseInt(n_str);
+
+        return answer;
+    }
+
 }
