@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="CodeTestLv0 으로 통합, solution12 추가">
+    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="solution14 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CodeTestLv0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeTestLv0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -148,7 +149,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720344419728</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="solution13 추가">
+      <option name="closed" value="true" />
+      <created>1720443823856</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720443823856</updated>
+    </task>
+    <task id="LOCAL-00011" summary="solution14 추가">
+      <option name="closed" value="true" />
+      <created>1720532115027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720532115027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="solution14 추가">
+      <option name="closed" value="true" />
+      <created>1720532129928</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720532129928</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +189,8 @@
     <MESSAGE value="codetest10 추가" />
     <MESSAGE value="codetest11 추가" />
     <MESSAGE value="CodeTestLv0 으로 통합, solution12 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeTestLv0 으로 통합, solution12 추가" />
+    <MESSAGE value="solution13 추가" />
+    <MESSAGE value="solution14 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution14 추가" />
   </component>
 </project>

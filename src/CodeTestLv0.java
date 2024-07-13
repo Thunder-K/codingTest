@@ -190,4 +190,17 @@ public class CodeTestLv0 {
         return answer;
     }
 
+    public static int solution15(String num_str) {
+        int answer = 0;
+
+        int sum = 0;
+        for (int i = 0; i < num_str.length(); i++) {
+
+            sum += Integer.parseInt(String.valueOf(num_str.charAt(i)));
+        }
+        answer = sum;
+
+        return answer;
+    }
+
 }

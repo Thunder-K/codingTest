@@ -46,6 +46,8 @@ public class Main {
         System.out.println("문자열을 정수로 변환하기");
         System.out.println(CodeTestLv0.solution14("10"));
 
+        System.out.println("문자열 정수의 합");
+        System.out.println(CodeTestLv0.solution15("123456789"));
     }
 
 }
