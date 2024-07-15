@@ -48,6 +48,9 @@ public class Main {
 
         System.out.println("문자열 정수의 합");
         System.out.println(CodeTestLv0.solution15("123456789"));
+
+        System.out.println("정수 부분");
+        System.out.println(CodeTestLv0.solution16(1.42));
     }
 
 }
