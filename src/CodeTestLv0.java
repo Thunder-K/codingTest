@@ -221,4 +221,14 @@ public class CodeTestLv0 {
         return answer;
     }
 
+    public static int[] solution17(int[] num_list) {
+        int[] answer = {};
+
+        answer = Arrays.stream(num_list).sorted().toArray();
+
+        answer = Arrays.copyOfRange(answer, 0, 5);
+
+        return answer;
+    }
+
 }

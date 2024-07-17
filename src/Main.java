@@ -51,6 +51,11 @@ public class Main {
 
         System.out.println("뒤에서 5등 위로");
         System.out.println(Arrays.toString(CodeTestLv0.solution16(new int[]{12, 4, 15, 46, 38, 1, 14, 56, 32, 10})));
+
+        System.out.println("뒤에서 5등까지");
+        System.out.println(Arrays.toString(CodeTestLv0.solution17(new int[]{12, 4, 15, 46, 38, 1, 14})));
+
     }
+
 
 }
