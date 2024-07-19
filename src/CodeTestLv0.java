@@ -250,4 +250,9 @@ public class CodeTestLv0 {
 
     }
 
+    public static int[] solution19(int[] arr) {
+        int[] answer = {};
+        return answer;
+    }
+
 }
