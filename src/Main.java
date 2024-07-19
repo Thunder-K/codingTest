@@ -59,7 +59,7 @@ public class Main {
         System.out.println(CodeTestLv0.solution18(new int[]{100, 17, 84, 1},new int[]{55, 12, 65, 36}));
 
         System.out.println("배열의 원소만큼 추가하기");
-        System.out.println(Arrays.toString(CodeTestLv0.solution19(new int[]{15, 1, 4})));
+        System.out.println(Arrays.toString(CodeTestLv0.solution19(new int[]{5, 1, 4})));
     }
 
 

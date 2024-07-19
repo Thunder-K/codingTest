@@ -252,6 +252,32 @@ public class CodeTestLv0 {
 
     public static int[] solution19(int[] arr) {
         int[] answer = {};
+
+        int [] resultArr = new int[Arrays.stream(arr).sum()];
+
+        int index = 0;
+        int arrVal = 0;
+
+        for(int k = 0; k < resultArr.length; k++) {
+
+            if(arr[index] > arrVal) {
+
+                resultArr[k] = arr[index];
+
+                arrVal++;
+
+            } else {
+                index ++;
+
+                resultArr[k] = arr[index];
+
+                arrVal = 1;
+            }
+
+        }
+
+        answer = resultArr;
+
         return answer;
     }
 
