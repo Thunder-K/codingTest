@@ -281,4 +281,20 @@ public class CodeTestLv0 {
         return answer;
     }
 
+    public static String solution20(String rny_string) {
+        String answer = "";
+
+        answer = rny_string.replace("m", "rn");
+
+        return answer;
+    }
+
+    public static boolean solution21(String abbaa, String aabb) {
+        int answer = 0;
+
+
+
+        return answer;
+
+    }
 }

@@ -60,6 +60,12 @@ public class Main {
 
         System.out.println("배열의 원소만큼 추가하기");
         System.out.println(Arrays.toString(CodeTestLv0.solution19(new int[]{5, 1, 4})));
+
+        System.out.println("rny_string");
+        System.out.println(CodeTestLv0.solution20("masterpiece"));
+
+        System.out.println("문자열 바꿔서 찾기");
+        System.out.println(CodeTestLv0.solution21("ABBAA", "AABB"));
     }
 
 
