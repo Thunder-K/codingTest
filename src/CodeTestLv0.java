@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class CodeTestLv0 {
 
@@ -289,12 +289,21 @@ public class CodeTestLv0 {
         return answer;
     }
 
-    public static boolean solution21(String abbaa, String aabb) {
+    public static int solution21(String myString, String pat) {
         int answer = 0;
 
+        return answer = myString.chars()
+                .mapToObj(i -> (char) i)
+                .map(i -> i.equals('A') ? 'B' : 'A')
+                .map(String::valueOf)
+                .collect(Collectors.joining())
+                .contains(pat) ? 1 : 0;
 
+    }
 
-        return answer;
+    public static String[] solution22(String my_string) {
+        String[] answer = {};
 
+        return answer = Arrays.stream(my_string.split(" ")).filter(i -> !i.isEmpty()).toArray(String[]::new);
     }
 }

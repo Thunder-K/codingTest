@@ -66,6 +66,11 @@ public class Main {
 
         System.out.println("문자열 바꿔서 찾기");
         System.out.println(CodeTestLv0.solution21("ABBAA", "AABB"));
+
+        System.out.println("공백으로 구분하기 2");
+        System.out.println(Arrays.toString(CodeTestLv0.solution22("i    love  you")));
+
+
     }
 
 
