@@ -306,4 +306,10 @@ public class CodeTestLv0 {
 
         return answer = Arrays.stream(my_string.split(" ")).filter(i -> !i.isEmpty()).toArray(String[]::new);
     }
+
+    public static String[] solution23(String my_string) {
+        String[] answer = {};
+
+        return answer = Arrays.stream(my_string.split(" ")).toArray(String[]::new);
+    }
 }

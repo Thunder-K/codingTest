@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="solution21 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="solution22 추가">
       <change beforePath="$PROJECT_DIR$/src/CodeTestLv0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeTestLv0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -237,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721567049700</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="solution22 추가">
+      <option name="closed" value="true" />
+      <created>1721658182029</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721658182029</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +268,7 @@
     <MESSAGE value="solution18 추가" />
     <MESSAGE value="solution19 추가" />
     <MESSAGE value="solution21 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution21 추가" />
+    <MESSAGE value="solution22 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution22 추가" />
   </component>
 </project>

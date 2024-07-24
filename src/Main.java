@@ -70,6 +70,9 @@ public class Main {
         System.out.println("공백으로 구분하기 2");
         System.out.println(Arrays.toString(CodeTestLv0.solution22("i    love  you")));
 
+        System.out.println("공백으로 구분하기 1");
+        System.out.println(Arrays.toString(CodeTestLv0.solution22("i love you")));
+
 
     }
 
