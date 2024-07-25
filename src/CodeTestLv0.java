@@ -312,4 +312,10 @@ public class CodeTestLv0 {
 
         return answer = Arrays.stream(my_string.split(" ")).toArray(String[]::new);
     }
+
+    public static String solution24(String my_string, String alp) {
+        String answer = "";
+
+        return answer = Stream.of(my_string.split("")).map(i -> i.equals(alp) ? i.toUpperCase() : i).collect(Collectors.joining());
+    }
 }
