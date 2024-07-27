@@ -76,6 +76,9 @@ public class Main {
         System.out.println("특정한 문자를 대문자로 바꾸기");
         System.out.println(CodeTestLv0.solution24("programmers", "p"));
 
+        System.out.println("A 강조하기");
+        System.out.println(CodeTestLv0.solution25("abstract algebra"));
+
     }
 
 

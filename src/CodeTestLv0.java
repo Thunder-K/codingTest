@@ -318,4 +318,11 @@ public class CodeTestLv0 {
 
         return answer = Stream.of(my_string.split("")).map(i -> i.equals(alp) ? i.toUpperCase() : i).collect(Collectors.joining());
     }
+
+    public static String solution25(String myString) {
+        String answer = "";
+        return answer = Stream.of(myString.split(""))
+                .map(i -> i.equals("a") ? i.toUpperCase() : i.equals("A") ? i : i.toLowerCase())
+                .collect(Collectors.joining());
+    }
 }
