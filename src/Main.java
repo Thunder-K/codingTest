@@ -79,6 +79,9 @@ public class Main {
         System.out.println("A 강조하기");
         System.out.println(CodeTestLv0.solution25("abstract algebra"));
 
+        System.out.println("배열에서 문자열 대소문자 변환하기");
+        System.out.println(Arrays.toString(CodeTestLv0.solution26(new String[]{"AAA","BBB","CCC","DDD"})));
+
     }
 
 

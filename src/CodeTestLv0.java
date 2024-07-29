@@ -325,4 +325,20 @@ public class CodeTestLv0 {
                 .map(i -> i.equals("a") ? i.toUpperCase() : i.equals("A") ? i : i.toLowerCase())
                 .collect(Collectors.joining());
     }
+
+    public static String[] solution26(String[] strArr) {
+        String[] answer = {};
+
+        for(int i = 0; i < strArr.length; i++) {
+
+            if(i % 2 == 0) {
+                strArr[i] = strArr[i].toLowerCase();
+            } else {
+                strArr[i] = strArr[i].toUpperCase();
+            }
+
+        }
+
+        return answer = strArr;
+    }
 }
