@@ -341,4 +341,9 @@ public class CodeTestLv0 {
 
         return answer = strArr;
     }
+
+    public static String solution27(String myString) {
+        String answer = "";
+        return answer = myString.toLowerCase();
+    }
 }
