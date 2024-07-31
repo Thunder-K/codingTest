@@ -84,6 +84,9 @@ public class Main {
 
         System.out.println("소문자로 바꾸기");
         System.out.println(CodeTestLv0.solution27("aBcDeFg"));
+
+        System.out.println("n의 배수");
+        System.out.println(CodeTestLv0.solution28(98, 2));
     }
 
 

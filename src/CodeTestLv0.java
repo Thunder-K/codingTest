@@ -346,4 +346,9 @@ public class CodeTestLv0 {
         String answer = "";
         return answer = myString.toLowerCase();
     }
+
+    public static int solution28(int num, int n) {
+        int answer = 0;
+        return answer = num % n == 0 ? 1 : 0;
+    }
 }
