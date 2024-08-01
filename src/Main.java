@@ -87,6 +87,10 @@ public class Main {
 
         System.out.println("n의 배수");
         System.out.println(CodeTestLv0.solution28(98, 2));
+
+
+        System.out.println("대문자로 바꾸기");
+        System.out.println(CodeTestLv0.solution29("aBcDeFg"));
     }
 
 

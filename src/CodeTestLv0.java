@@ -351,4 +351,9 @@ public class CodeTestLv0 {
         int answer = 0;
         return answer = num % n == 0 ? 1 : 0;
     }
+
+    public static String solution29(String myString) {
+        String answer = "";
+        return answer = myString.toUpperCase();
+    }
 }
