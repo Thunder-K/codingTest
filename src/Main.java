@@ -91,6 +91,13 @@ public class Main {
 
         System.out.println("대문자로 바꾸기");
         System.out.println(CodeTestLv0.solution29("aBcDeFg"));
+
+        System.out.println("원하는 문자열 찾기");
+        System.out.println(CodeTestLv0.solution30("AbCdEfG","aBc"));
+
+        System.out.println("길이에 따른 연산");
+        System.out.println(CodeTestLv0.solution31(new int[]{3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1}));
+
     }
 
 

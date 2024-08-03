@@ -356,4 +356,14 @@ public class CodeTestLv0 {
         String answer = "";
         return answer = myString.toUpperCase();
     }
+
+    public static int solution30(String myString, String pat) {
+        int answer = 0;
+        return myString.toUpperCase().contains(pat.toUpperCase()) ? 1 : 0;
+    }
+
+    public static int solution31(int[] num_list) {
+        int answer = 0;
+        return answer = num_list.length >= 11 ? Arrays.stream(num_list).sum() : Arrays.stream(num_list).reduce(1, (a, b) -> a * b);
+    }
 }
