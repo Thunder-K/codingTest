@@ -98,6 +98,10 @@ public class Main {
         System.out.println("길이에 따른 연산");
         System.out.println(CodeTestLv0.solution31(new int[]{3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1}));
 
+        System.out.println("조건에 맞게 수열 변환하기 1");
+        System.out.println(Arrays.toString(CodeTestLv0.solution32(new int[]{1, 2, 3, 100, 99, 98})));
+
+
     }
 
 

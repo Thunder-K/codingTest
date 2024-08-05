@@ -366,4 +366,26 @@ public class CodeTestLv0 {
         int answer = 0;
         return answer = num_list.length >= 11 ? Arrays.stream(num_list).sum() : Arrays.stream(num_list).reduce(1, (a, b) -> a * b);
     }
+
+    public static int[] solution32(int[] arr) {
+        int[] answer = new int[arr.length];
+
+        //return answer = Arrays.stream(arr).map(i -> i >= 50 && i % 2 == 0 ? i / 2 : i < 50 && (i % 3 == 0 || i == 1) ? i * 2 : i).toArray();
+        int startIndex = 0;
+        for(int i : arr) {
+            if(i >= 50 && i % 2 == 0) {
+                answer[startIndex] = i / 2;
+                startIndex++;
+            } else if(i < 50 && i % 2 != 0){
+                answer[startIndex] = i * 2;
+                startIndex++;
+            } else {
+                answer[startIndex] = i;
+                startIndex++;
+            }
+
+        }
+
+        return answer;
+    }
 }
