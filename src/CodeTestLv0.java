@@ -388,4 +388,20 @@ public class CodeTestLv0 {
 
         return answer;
     }
+
+    public static int solution33(int[] numbers, int n) {
+        int answer = 0;
+
+        for(int i : numbers) {
+
+            answer += i;
+
+            if(answer > n)
+                break;
+
+        }
+
+        return answer;
+
+    }
 }

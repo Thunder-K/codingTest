@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="solution30, 31 추가">
+    <list default="true" id="8f837986-bead-40da-a515-dedb68f7b946" name="Changes" comment="solution32 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CodeTestLv0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeTestLv0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -309,14 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722665643222</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="solution32 추가">
+      <option name="closed" value="true" />
+      <created>1722866573915</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722866573915</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codetest5 추가" />
     <MESSAGE value="codetest6 추가&#10;&#10;stream.reduce, sum 사용&#10;&#10;제곱함수는 Math.pow()" />
     <MESSAGE value="codetest7 추가" />
     <MESSAGE value="codetest8 추가" />
@@ -341,6 +348,7 @@
     <MESSAGE value="solution28 추가" />
     <MESSAGE value="solution29 추가" />
     <MESSAGE value="solution30, 31 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution30, 31 추가" />
+    <MESSAGE value="solution32 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution32 추가" />
   </component>
 </project>

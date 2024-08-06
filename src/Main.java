@@ -102,6 +102,9 @@ public class Main {
         System.out.println(Arrays.toString(CodeTestLv0.solution32(new int[]{1, 2, 3, 100, 99, 98})));
 
 
+        System.out.println("n보다 커질 때까지 더하기");
+        System.out.println(CodeTestLv0.solution33(new int[]{34, 5, 71, 29, 100, 34},123));
+
     }
 
 
