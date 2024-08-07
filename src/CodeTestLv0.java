@@ -404,4 +404,21 @@ public class CodeTestLv0 {
         return answer;
 
     }
+
+    public static String[] solution34(String[] names) {
+        String[] answer = new String[names.length % 5 == 0 ? names.length / 5 : names.length / 5 + 1];
+
+        int index = 0;
+        for(String name : names) {
+
+            if(index % 5 == 0) {
+                answer[index / 5] = name;
+
+            }
+            index++;
+
+        }
+
+        return answer;
+    }
 }

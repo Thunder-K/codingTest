@@ -105,6 +105,9 @@ public class Main {
         System.out.println("n보다 커질 때까지 더하기");
         System.out.println(CodeTestLv0.solution33(new int[]{34, 5, 71, 29, 100, 34},123));
 
+        System.out.println("5명씩");
+        System.out.println(Arrays.toString(CodeTestLv0.solution34(new String[]{"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx", "nami2", "ahri2", "jayce2"})));
+
     }
 
 
