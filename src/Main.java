@@ -108,6 +108,9 @@ public class Main {
         System.out.println("5명씩");
         System.out.println(Arrays.toString(CodeTestLv0.solution34(new String[]{"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx", "nami2", "ahri2", "jayce2"})));
 
+        System.out.println("n개 간격의 원소들");
+        System.out.println(Arrays.toString(CodeTestLv0.solution35(new int[]{4, 2, 6, 1, 7, 6}, 4)));
+
     }
 
 
