@@ -111,6 +111,9 @@ public class Main {
         System.out.println("n개 간격의 원소들");
         System.out.println(Arrays.toString(CodeTestLv0.solution35(new int[]{4, 2, 6, 1, 7, 6}, 4)));
 
+        System.out.println("n 번째 원소까지");
+        System.out.println(Arrays.toString(CodeTestLv0.solution36(new int[]{2, 1, 6}, 1)));
+
     }
 
 

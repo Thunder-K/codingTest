@@ -435,4 +435,16 @@ public class CodeTestLv0 {
 
         return answer;
     }
+
+    public static int[] solution36(int[] num_list, int n) {
+        int[] answer = new int[n];
+
+        for(int i=0; i < n; i++) {
+
+            answer[i] = num_list[i];
+
+        }
+
+        return answer;
+    }
 }
