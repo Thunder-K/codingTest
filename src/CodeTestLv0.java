@@ -447,4 +447,20 @@ public class CodeTestLv0 {
 
         return answer;
     }
+
+    public static int[] solution37(int[] num_list, int n) {
+        int[] answer = new int[num_list.length];
+
+        int idx = 0;
+
+        for(int i = n; i < num_list.length; i++) {
+            answer[idx++] = num_list[i];
+        }
+
+        for(int i = 0; i < n; i++) {
+            answer[idx++] = num_list[i];
+        }
+
+        return answer;
+    }
 }
