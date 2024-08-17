@@ -463,4 +463,10 @@ public class CodeTestLv0 {
 
         return answer;
     }
+
+    public static int[] solution38(int[] num_list, int n) {
+        int[] answer = {};
+
+        return answer = Arrays.copyOfRange(num_list, n-1, num_list.length);
+    }
 }

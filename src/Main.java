@@ -114,9 +114,11 @@ public class Main {
         System.out.println("n 번째 원소까지");
         System.out.println(Arrays.toString(CodeTestLv0.solution36(new int[]{2, 1, 6}, 1)));
 
-
         System.out.println("순서 바꾸기");
         System.out.println(Arrays.toString(CodeTestLv0.solution37(new int[]{5, 2, 1, 7, 5}, 3)));
+
+        System.out.println("n 번째 원소부터");
+        System.out.println(Arrays.toString(CodeTestLv0.solution38(new int[]{5, 2, 1, 7, 5}, 2)));
 
     }
 
